@@ -2,32 +2,92 @@
 <html lang="eu">
 <head>
 <title>Test1</title>
+<link rel="stylesheet" href="table.css">
+<style>
+table{background-color:lightgreen;}
+h4{font-family:seorgescript;}
+@media only screen and (max-width:600px) 
+{
+body
+{
+background-color:skyblue;
+}
+}
+
+</style>
 </head>
 <body>
 
-<header style="background:skyblue; font-size:80px; color:blue;text-align:center">Name</header>
+<header >Name</header>
 
-<h2 style="font-size:40px; font-family:seorgescript;">heading 1</h2>
-<ul>
+<h4>heading 1</h4>
+<ul >
 <li>Hi</li>
 <li>Hello</li>
+<li>Who are you?</li>
+<li>What are you doing?</li>
+<li>Bye</li>
 </ul>
 
-<h2 style="font-size:40px; font-family:seorgescript;">heading 2</h2>
+<h4>heading 2</h4>
 <p style="font-size:20px; font-family:seorgescript;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<span style="background:skyblue; font-size:30px;color:blue"> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-<h2 style="font-size:40px; font-family:seorgescript;">heading 3</h2>
+<h4 >heading 3</h4>
 
-<div style="display:inline-block;width:100%">
-<div style="background:lightpink;height:150px;width:50%;float:left">
-This is my content of the section
-</div>
-<div style="background:lightgreen;height:150px;width:50%;float:left">
-This is my content of the section
-</div>
-</div>
-<img src="ss.png" alt="image" style="width:100%;height:550px">
-<footer style="background:skyblue; font-size:40px; color:blue; text-align:right">COPYRIGHT</footer>
+<div style="display:inline-block;width:100%;">
+<div style="height:150px;width:49%;float:left;border:3px solid black;padding:5px;border-radius:15px;">
 
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+
+</div>
+<div style="height:150px;width:48%;float:left;border:3px solid red;padding:5px;border-radius:15px;">
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+
+</div>
+</div>
+
+<center>
+<img src="/home/divya/Desktop/1/2/3/animal-dog-maltese-33053.jpg" alt="image" style="width:50%;height:200px;">
+</center>
+<h4 >heading 4</h4>
+
+<center>
+<table style="width:50%;" border="5px">
+<caption>Table</caption>
+<tr style="font-size:30px">
+<th>NAME</th>
+<th>LIST</th>
+<th>DATE</th>
+</tr>
+
+<tr>
+<td rowspan="4" style="text-align:center">Divya</td>
+<td>List1</td>
+<td rowspan="4" style="text-align:center">23Jan,2019</td>
+</tr>
+
+<tr>
+<td>List2</td>
+</tr>
+
+<tr>
+<td>List3</td>
+</tr>
+
+<tr>
+<td>List4</td>
+</tr>
+
+</table>
+</center>
+<iframe src="https://www.google.com/chrome" style="width:100%"></iframe>
+
+<a href="table.html" style="font-size:30px">link table</a>
+
+<!-- write your comments here -->
+<footer >COPYRIGHT</footer>
 </body>
 </html>
