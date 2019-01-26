@@ -5,7 +5,25 @@
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <link rel="stylesheet" href="table.css">
 <style>
-table{background-color:lightgreen;}
+table
+{
+border-collapse:collapse;
+}
+table,th,td
+{
+background-color:lightgreen;
+border:2px solid black;
+margin-left:auto; 
+margin-right:auto;
+}
+.center
+{
+display: block;
+margin-left:auto; 
+margin-right:auto;
+width:50%;
+height:200px;
+}
 h4{font-family:seorgescript;}
 .h4
 {
@@ -65,13 +83,12 @@ It is a long established fact that a reader will be distracted by the readable c
 </div>
 </div>
 
-<center>
-<img src="/home/divya/Desktop/1/2/3/animal-dog-maltese-33053.jpg" alt="image" style="width:50%;height:200px;">
-</center>
+
+<img src="/home/divya/Desktop/1/2/3/animal-dog-maltese-33053.jpg" alt="image"  class="center">
+
 <h4 class="h4">heading 4</h4>
 
-<center>
-<table style="width:50%;" border="5px">
+<table style="width:50%;" >
 <caption>Table</caption>
 <tr style="font-size:30px">
 <th>NAME</th>
@@ -98,7 +115,7 @@ It is a long established fact that a reader will be distracted by the readable c
 </tr>
 
 </table>
-</center>
+
 <iframe src="https://www.google.com/chrome" style="width:100%"></iframe>
 
 <a href="table.html" style="font-size:30px">link table</a>
